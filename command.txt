@@ -1,0 +1,16 @@
+sudo apt-ge install git
+git init
+tree . -a
+cat -n poem.txt
+git add poem.txt
+git commit -m "写了前两句"
+git status
+git checkout -- poem.txt
+git diff
+git add .
+git commit -m "一首漂亮的古诗"
+git log
+git log --pretty=online
+git reset --hard HEAD^
+git reflog
+git reset --hard <version number>
